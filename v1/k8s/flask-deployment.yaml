@@ -16,7 +16,7 @@ spec:
     spec:
       containers:
       - name: flask
-        image: jamonation/flask-helloworld:v1
+        image: grimsleepless/workshop_flask:v1
         ports:
         - containerPort: 5000
         env:
